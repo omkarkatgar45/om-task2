@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Day 7 - Product Search</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Product Search App</h1>
+        <p>Search products from API</p>
+    </header>
+
+    <section class="search-box">
+
+        <form id="searchForm">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search product..."
+                autocomplete="off"
+            >
+
+            <button type="submit">
+                Search
+            </button>
+
+        </form>
+
+    </section>
+
+    <p id="message">
+        Enter a product name to search.
+    </p>
+
+    <div id="results" class="results"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
